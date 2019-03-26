@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
         }
         else if(b%3 == 0){
             cout<<"Fizz"<<endl;
-        }
+        } 
         else if(b%5 == 0){
             cout<<"Buzz"<<endl;
         }
@@ -36,6 +36,8 @@ int main(int argc, char** argv) {
             cout<<b<<endl;
         b++;
     }
+    
+    
     return 0;
 }
 
