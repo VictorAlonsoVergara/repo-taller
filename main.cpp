@@ -23,7 +23,15 @@ int main(int argc, char** argv) {
     int a[MAX];
     int b = 1;
     for(int i=0;i<MAX;i++){
-        
+        if((b % 3 == 0) and (b % 5 == 0)){
+            cout<<"FizzBuzz"<<endl;
+        }
+        else if(b%3 == 0){
+            cout<<"Fizz"<<endl;
+        }
+        else if(b%5 == 0){
+            cout<<"Buzz"<<endl;
+        }
         b++;
     }
     return 0;
